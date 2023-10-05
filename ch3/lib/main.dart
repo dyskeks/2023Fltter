@@ -11,10 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
-      home: const Text('Hello World',
-      style:TextStyle(fontSize:100),
-    ),
+      title: "Flutter Demo",
+      home: HelloPage()
     );
   }
 }
+
