@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 import "package:flutter/widgets.dart";
 
-class Hellopage extends StatefulWidget{
+class HelloPage extends StatefulWidget{
   late String title;
   int count = 0;
   HelloPage({super.key, String title}){
@@ -19,7 +19,8 @@ class _HelloPageState() extends State<HelloPage> {
   Widget build (BuildContext context){
   return Scaffold(
     appBar: AppBar(
-      title: Text(widget.title),
+      title: Text('Hello World'),
+
     ),
     body: Center(
       child: Column(
