@@ -15,28 +15,18 @@ class _CenterTestState extends State<CenterTest> {
         title: Text("Expanded Test"),
         backgroundColor: Colors.indigo,
       ),
-      body: Column(
-        children: <Widget>[
-          Expanded(
-            flex: 2,
-            child: Container(
-              color: Colors.red,
-              width: 100,
-            ),
+      body: Center(
+        child: Card(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16.0),
           ),
-          Expanded(
-            child: Container(
-              color: Colors.blue,
-              width: 100,
-            ),
+          elevation: 10,
+          child: Container(
+            color: Colors.red,
+            width: 100,
+            height: 200,
           ),
-          Expanded(
-            child: Container(
-              color: Colors.green,
-              width: 100,
-            ),
-          ),
-        ],
+        ),
       ),
     );
   }

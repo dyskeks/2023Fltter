@@ -1,3 +1,4 @@
+import 'package:ch4/ButtonTest.dart';
 import 'package:ch4/CenterTest.dart';
 import 'package:ch4/PageViesUI.dart';
 import 'package:ch4/PuzzleUI.dart';
@@ -29,7 +30,8 @@ class MyApp extends StatelessWidget {
       //home: PageViewUI(),
       //home: TabBarTest(),
       //home: BottomNavigationBarTest(),
-      home: CenterTest(),
+      //home: CenterTest(),
+      home: ButtonTest(),
     );
   }
 }
