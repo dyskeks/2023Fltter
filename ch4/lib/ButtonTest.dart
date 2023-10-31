@@ -15,17 +15,7 @@ class _ButtonTestState extends State<ButtonTest> {
         title: Text('BouttonTest'),
         backgroundColor: Colors.blue,
       ),
-      body: Center(
-        child: IconButton(
-          icon: Icon(Icons.add),
-          iconSize: 200,
-          onPressed: (){
-            setState(() {
-
-            });
-          }, //익명함수
-        ),
-      ),
+      body: Image.asset('assets/flutter.png'),
     );
   }
 }

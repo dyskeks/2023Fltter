@@ -25,12 +25,6 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      //home: const ContainerTEst(),
-      //home: const PuzzleUI(),
-      //home: PageViewUI(),
-      //home: TabBarTest(),
-      //home: BottomNavigationBarTest(),
-      //home: CenterTest(),
       home: ButtonTest(),
     );
   }
